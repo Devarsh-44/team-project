@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - InnovateStack</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">InnovateStack</div>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html" class="login-btn">Login</a>
+      </nav>
+    </header>
+    <section class="contact-section">
+      <div class="contact-container">
+        <h2 class="slide-in">Get in Touch</h2>
+        <p>Have questions or want to collaborate? Reach out to us!</p>
+        <form action="contact_form.php" method="post" class="fade-in">
+          <div class="input-group">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="input-group">
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="cta-button bounce">Send</button>
+        </form>
+        <p class="contact-info">
+          Email: <a href="mailto:admin@project.com">Admin@project.com</a>
+        </p>
+      </div>
+    </section>
+    <footer>
+      <p>© 2025 InnovateStack. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
